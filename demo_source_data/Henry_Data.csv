@@ -1,0 +1,202 @@
+,Country,H_bed_density,Imigrate_Rate,Pop_Density
+0,Uruguay,2.8,-0.9,19
+1,Mauritius,3.7,0,669
+2,Channel Islands,NULL,NULL,NULL
+3,Martinique,NULL,NULL,NULL
+4,Montenegro,4,-4.9,44
+5,Kyrgyzstan,4.5,-5.1,29
+6,Bolivia,1.1,-0.4,10
+7,Mayotte,NULL,NULL,NULL
+8,Rwanda,NULL,-0.5,463
+9,Liechtenstein,NULL,5,241
+10,Madagascar,0.2,0,44
+11,Isle of Man,NULL,5.8,156
+12,French Polynesia,NULL,-0.8,70
+13,Uganda,0.5,-0.7,169
+14,Zambia,2,0,22
+15,Barbados,5.8,-0.3,682
+16,El Salvador,1.3,-7.8,294
+17,Congo,NULL,NULL,NULL
+18,Mali,0.1,-3.9,15
+19,Niger,NULL,-0.5,16
+20,Guinea,0.3,0,48
+21,New Caledonia,NULL,3.9,15
+22,Djibouti,1.4,5.5,38
+23,Equatorial Guinea,2.1,0,28
+24,Mongolia,7,-0.8,2
+25,Dominica,3.8,-5.4,99
+26,Saint Martin,NULL,-5.6,593
+27,Grenada,3.7,-2.8,326
+28,Eswatini,NULL,NULL,NULL
+29,Cayman Islands,NULL,13.6,226
+30,Guyana,1.6,-3.2,3
+31,Laos,1.5,-1,31
+32,Mozambique,0.7,-1.8,34
+33,Myanmar,NULL,NULL,NULL
+34,Seychelles,3.6,1,208
+35,Suriname,3.1,0.5,4
+36,Gabon,6.3,7,8
+37,Zimbabwe,1.7,-7.3,36
+38,Antigua and Barbuda,3.8,2.1,217
+39,Cabo Verde,NULL,NULL,NULL
+40,Benin,0.5,0,101
+41,Eritrea,0.7,-13.1,51
+42,Vatican City,NULL,NULL,NULL
+43,Sudan,0.8,1.9,23
+44,Angola,NULL,0.1,24
+45,Fiji,2.3,-6.4,51
+46,Mauritania,NULL,-0.8,4
+47,Montserrat,NULL,0,52
+48,St. Barth,NULL,NULL,NULL
+49,Syria,1.5,57,104
+50,Nicaragua,0.9,-2.6,47
+51,Bhutan,1.7,0,20
+52,Turks and Caicos,NULL,NULL,NULL
+53,Gambia,NULL,NULL,NULL
+54,CAR,NULL,NULL,NULL
+55,Chad,NULL,-0.1,12
+56,Liberia,0.8,-4.7,43
+57,Libya,3.7,0.9,4
+58,Sint Maarten,NULL,NULL,NULL
+59,Somalia,8.7,-5.6,18
+60,MS Zaandam,NULL,NULL,NULL
+61,Anguilla,NULL,11.5,191
+62,Belize,1.3,-0.6,17
+63,British Virgin Islands,NULL,16.1,237
+64,Guinea-Bissau,1,-4,51
+65,Saint Kitts and Nevis,4.8,1.2,203
+66,Papua New Guinea,NULL,0,15
+67,Timor-Leste,NULL,NULL,NULL
+68,Lithuania,7.3,-6.1,43
+69,Latvia,5.8,-6,30
+70,Réunion,NULL,NULL,NULL
+71,Trinidad and Tobago,3,-5.8,237
+72,Paraguay,1.3,-0.1,17
+73,Aruba,NULL,8.6,648
+74,Monaco,13.8,6.5,15364
+75,Kenya,1.4,-0.2,83
+76,Togo,0.7,0,144
+77,Ethiopia,0.3,-0.2,98
+78,Haiti,0.7,-2,389
+79,Tanzania,0.7,-0.5,59
+80,Bahamas,NULL,NULL,NULL
+81,Nepal,3,-2.5,202
+82,Saint Lucia,1.3,-2.2,269
+83,St. Vincent Grenadines,NULL,NULL,NULL
+84,Andorra,2.5,0,183
+85,Denmark,2.5,4.3,135
+86,Slovakia,5.8,0.1,111
+87,Tunisia,2.2,-1.6,70
+88,Moldova,5.8,-9.3,102
+89,Ghana,0.9,-1.7,118
+90,Malta,4.7,7.8,1421
+91,Afghanistan,0.5,-0.6,54
+92,Cameroon,1.3,-0.1,54
+93,DRC,NULL,NULL,NULL
+94,Jamaica,1.7,-9.4,256
+95,Bermuda,NULL,1.7,1318
+96,Namibia,2.7,0,3
+97,Greenland,8.2,-6,0
+98,Curaçao,NULL,NULL,NULL
+99,Ecuador,1.5,0,58
+100,Dominican Republic,1.6,-2.6,212
+101,Costa Rica,1.1,0.8,98
+102,Ivory Coast,NULL,NULL,NULL
+103,Honduras,0.7,-1.1,82
+104,Nigeria,NULL,-0.2,220
+105,North Macedonia,NULL,NULL,NULL
+106,Netherlands,4.7,1.9,413
+107,Panama,2.3,-0.2,50
+108,Cuba,5.2,-4.5,100
+109,Mexico,1.5,-1.8,64
+110,Ireland,2.8,4,72
+111,Ukraine,8.8,4.6,73
+112,San Marino,3.8,7.2,554
+113,French Guiana,NULL,NULL,NULL
+114,Brazil,2.2,-0.1,25
+115,Uzbekistan,4,-2.1,67
+116,Norway,3.8,5.3,17
+117,Poland,6.5,-0.4,123
+118,Bosnia and Herzegovina,3.5,-0.4,75
+119,Colombia,1.5,-0.6,42
+120,Sri Lanka,3.6,-1.3,344
+121,Macao,NULL,NULL,NULL
+122,Guatemala,0.6,-2.4,152
+123,Finland,4.4,2.8,16
+124,Slovenia,4.6,1,104
+125,Maldives,4.3,-12.7,1317
+126,Bulgaria,6.8,-0.3,64
+127,Czechia,NULL,NULL,NULL
+128,Morocco,1.1,-3.1,77
+129,Gibraltar,NULL,-3.3,4532
+130,Azerbaijan,4.7,0,116
+131,Cyprus,NULL,NULL,NULL
+132,Bangladesh,0.8,-3,1074
+133,Peru,1.6,-2.1,24
+134,Sweden,2.4,5.3,22
+135,Guadeloupe,NULL,NULL,NULL
+136,Kazakhstan,6.7,0.4,7
+137,Jordan,1.4,0,117
+138,Palestine,NULL,NULL,NULL
+139,Georgia,2.6,-1.1,57
+140,Estonia,5,-3.1,28
+141,Burkina Faso,0.4,-0.7,72
+142,Vietnam,2.6,-0.3,293
+143,Cambodia,0.8,-0.3,91
+144,Oman,1.6,-0.4,15
+145,Senegal,NULL,-1.4,76
+146,Pakistan,0.6,-1.2,261
+147,Lebanon,2.9,-40.3,587
+148,Armenia,4.2,-5.6,102
+149,South Africa,NULL,-0.9,45
+150,Algeria,1.9,-0.9,17
+151,Belarus,11,0.7,46
+152,Albania,2.9,-3.3,106
+153,Brunei,2.7,2.3,78
+154,Hungary,7,1.3,106
+155,Taiwan,NULL,0.9,654
+156,Venezuela,0.8,-1.2,35
+157,Luxembourg,4.9,14.8,234
+158,Philippines,1,-1.9,353
+159,Serbia,5.7,0,91
+160,Portugal,3.4,-0.2,112
+161,Qatar,1.2,11.5,204
+162,Croatia,5.6,-1.4,75
+163,Greece,4.3,2.3,82
+164,UAE,NULL,NULL,NULL
+165,New Zealand,2.8,2.2,17
+166,Chile,2.2,0.3,24
+167,Russia,8.2,1.7,8
+168,Indonesia,1.2,-1.1,138
+169,Saudi Arabia,2.7,4.1,15
+170,Kuwait,2,-2.8,164
+171,Turkey,2.7,-4.5,104
+172,Faeroe Islands,NULL,NULL,NULL
+173,Argentina,5,-0.1,16
+174,India,0.7,0,395
+175,Israel,3.1,2.1,384
+176,Thailand,2.1,0,134
+177,Iceland,3.4,3.7,3
+178,Hong Kong,5.4,1.7,6510
+179,Egypt,1.6,-0.4,99
+180,UK,2.8,2.5,267
+181,Iraq,1.4,-1.1,92
+182,Romania,6.3,-0.2,90
+183,Singapore,2.4,12.7,8337
+184,Australia,3.8,5.4,3
+185,Bahrain,2,11.6,1898
+186,Malaysia,1.9,-0.3,96
+187,Japan,13.4,0,334
+188,Austria,7.6,4.4,105
+189,Canada,2.7,5.7,4
+190,Diamond Princess,NULL,NULL,NULL
+191,Belgium,6.2,5.2,379
+192,Switzerland,4.7,4.6,201
+193,USA,2.9,3.8,33
+194,S. Korea,11.5,2.4,516
+195,France,6.5,1.1,105
+196,Germany,8.3,1.5,225
+197,Italy,3.4,3.6,207
+198,Iran,0.2,-0.2,50
+199,Spain,3,7.5,98
+200,China,4.2,-0.4,144

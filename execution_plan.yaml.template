@@ -1,0 +1,93 @@
+preprocess_plan:
+  source_dir: './demo_source_data'
+  target:
+    file_name: 'preprocessed'
+    dir: './data/preprocessed'
+  imputation:
+    - columns:
+      - 'Pop_Density'
+      - 'Death Rate'
+      - 'Health.expenditures....of.GDP.'
+      - 'Literacy....'
+      - 'Physicians.density..physicians.1.000.population.'
+      - 'Obesity - adult prevalence rate (%)'
+      - 'Life expectancy at birth (years)'
+      - 'H_bed_density'
+      - 'Imigrate_Rate'
+      - 'Pop_Density'
+      - 'Death Rate'
+      - 'Recovery Rate'
+      type: 'mean'
+    - columns:
+      - 'GDP - per capita (PPP) (US$)'
+      - 'Unemployment rate (%)'
+      type: 'zero'
+  transformation:
+    - columns:
+      - 'Pop_Density'
+      type: 'log'
+    - columns:
+      - 'Literacy....'
+      type: 'root_square'
+
+split_plan:
+  source_dir:
+    - dir: './data/preprocessed/'
+      files:
+        - 'preprocessed.csv'
+  target:
+    dir: './data/split'
+  method: 'ratio'
+  criteria:
+    ratio: 0.8
+
+model_plan:
+  source_dir:
+    - dir: './data/split/'
+      files:
+        - 'training.csv'
+  models_target:
+    dir: './data/model/models'
+  summary_target:
+    dir: './data/model/'
+    name: 'models_summary'
+  predictor_name:
+    - 'Health.expenditures....of.GDP.'
+    - 'Literacy....'
+    - 'Physicians.density..physicians.1.000.population.'
+    - 'Obesity - adult prevalence rate (%)'
+    - 'Life expectancy at birth (years)'
+    - 'H_bed_density'
+    - 'Imigrate_Rate'
+    - 'Pop_Density'
+    - 'GDP - per capita (PPP) (US$)'
+    - 'Unemployment rate (%)'
+  response_name:
+    - 'Recovery Rate'
+  experiments:
+    - name: 'AIC'
+      criteria: {}
+    - name: 'SimpleLm'
+      criteria: {}
+    - name: 'StepWise'
+      criteria:
+        p_value: 0.1
+    - name: 'StepWise'
+      criteria:
+        p_value: 0.05
+    - name: 'StepWise'
+      criteria:
+        p_value: 0.01
+estimate_plan:
+  source_dir:
+    - dir: './data/split/'
+      files:
+        - 'testing.csv'
+  models_summary:
+    - dir: './data/model/'
+      files:
+        - 'models_summary.csv'
+  models_dir: './data/model/models/'
+  summary_target:
+    dir: './data/estimate'
+    name: 'estimated_model_data'
